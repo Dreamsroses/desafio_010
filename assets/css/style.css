@@ -16,3 +16,9 @@ a img{
 	position: relative;
 	margin-top: 20%;
 }
+.heart__icon{
+	background-color: #707070;
+	border: 10px solid #707070;
+	color: white;
+	border-radius: 100px;
+}
