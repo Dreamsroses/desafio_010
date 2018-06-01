@@ -8,6 +8,11 @@ img{
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
-a img {
+a img{
 	max-width: 100px;
+}
+
+.header__title{
+	position: relative;
+	margin-top: 20%;
 }
