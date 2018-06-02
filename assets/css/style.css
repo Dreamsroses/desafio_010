@@ -11,7 +11,7 @@ a img{
 	max-width: 100px;
 }
 .header__title{
-	font-size: 10vw;
+	font-size: 12vw;
 }
 .heart__icon{
 	background-color: #707070;
@@ -45,16 +45,19 @@ a img{
 	float: left;
 	margin-left: 8rem;
     width: 50%;
+    max-width: 100%;
+    height: auto;
 }
 .extracto__nosotros{
 	padding: 80px;
 	float: right;
 	padding-bottom: 3rem;
+	display: inline;
 }
 .user__icon{
 	margin-top: 10px;
 	font-size: 40px;
-	color: #707070;
+	color: #707070;	
 }
 h3{
 	display: inline-block;
@@ -64,3 +67,60 @@ h3{
 	margin-top: 6rem;
 }
 
+@media (min-width: 300px) and (max-width: 600px){
+.img__header{
+	background-image: url(../img/post-image_cell.jpg);
+	width: 600px;
+	height: 500px;
+	background-color: white;
+}
+.header__title{
+	padding: 60px;
+}
+.fecha__blog{
+	text-align: center;
+	padding: 50px;
+	display: inline-block;
+}
+.blog__text{
+	line-height: 2;
+}
+.share__icon{
+	display: block;
+}
+.comment_icon{
+	display: table-row;
+	background-color: #707070;
+	border: 10px solid #707070;
+	border-radius: 100px;
+}
+.comment_icon--tw{
+	display: none;
+}
+.card__nosotros{
+	border-radius: 50%;
+    text-align: center;
+    display: block;
+    width: 100%;
+	padding: 10px;
+}
+.img__nosotros{
+	border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.extracto__nosotros{
+	display: none;
+}
+
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 800px){
+body{
+	margin: auto;
+	padding: auto;
+	text-align: center;
+}
