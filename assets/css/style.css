@@ -4,17 +4,14 @@ img{
 }
 .img__header{
 	background-image: url(../img/post-image.jpg);
-	height: 100vh;
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
 a img{
 	max-width: 100px;
 }
-
 .header__title{
-	position: relative;
-	margin-top: 20%;
+	font-size: 10vw;
 }
 .heart__icon{
 	background-color: #707070;
@@ -22,3 +19,36 @@ a img{
 	color: white;
 	border-radius: 100px;
 }
+.share__icon{
+	background-color: #707070;
+	border: 10px solid #707070;
+	border-radius: 100px;
+}
+.comment_icon{
+	background-color: #707070;
+	border: 10px solid #707070;
+	border-radius: 100px;
+}
+.img__nosotros{
+	border-radius: 50%;
+	padding: 10px;
+	float: left;
+	margin-left: 8rem;
+    width: 50%;
+}
+.extracto__nosotros{
+	padding: 80px;
+	float: right;
+}
+.user__icon{
+	text-decoration: none;
+	margin-top: 10px;
+}
+h3{
+	display: inline-block;
+	padding: 30px;
+}
+.naomi__name{
+	margin-top: 6rem;
+}
+
