@@ -26,12 +26,22 @@ a img{
 }
 .comment_icon{
 	background-color: #707070;
-	border: 10px solid #707070;
-	border-radius: 100px;
+	border: 16px solid #707070;
+	border-radius: 80px;
+	color: white;
+}
+.comment_icon--tw{
+	display: inline;
+	padding: 5px;
+}
+.social__icon{
+	padding-bottom: 4rem;
+	padding-top: 3rem; 	
 }
 .img__nosotros{
 	border-radius: 50%;
 	padding: 10px;
+	padding-bottom: 3rem;
 	float: left;
 	margin-left: 8rem;
     width: 50%;
@@ -39,10 +49,12 @@ a img{
 .extracto__nosotros{
 	padding: 80px;
 	float: right;
+	padding-bottom: 3rem;
 }
 .user__icon{
-	text-decoration: none;
 	margin-top: 10px;
+	font-size: 40px;
+	color: #707070;
 }
 h3{
 	display: inline-block;
