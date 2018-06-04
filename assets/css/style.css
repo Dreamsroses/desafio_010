@@ -44,13 +44,16 @@ a img{
 }
 .comment_icon{
 	background-color: #707070;
-	border: 16px solid #707070;
+	border: 12px solid #707070;
 	border-radius: 80px;
 	color: white;
+	font-size: 28px;
+	padding-left: 6px;
 }
 .comment_icon--tw{
 	display: inline;
-	padding: 5px;
+	font-family: "Roboto", sans-serif;
+	font-size: 8px;
 }
 .social__icon{
 	padding-bottom: 4rem;
@@ -58,10 +61,9 @@ a img{
 }
 .img__nosotros{
 	border-radius: 50%;
-	padding: 10px;
-	padding-bottom: 3rem;
+	border: 4px solid white;
 	float: left;
-	margin-left: 8rem;
+	margin-left: 50px;
 	width: 50%;
 	max-width: 100%;
 	height: auto;
@@ -82,10 +84,33 @@ h3{
 	padding: 30px;
 }
 .naomi__name{
-	margin-top: 6rem;
+	margin-top: 60px;
+	font-family: "Playfair Display", serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 20px;
+}
+.naomi__mail{
+	font-family: "Roboto", sans-serif;
+	margin-bottom: 0px;
+	text-align: center;
+	color: #707070;
+}
+.website{
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	color: #707070;
 }
 .contacto{
-	font-style: 
+	padding-left: 14px;
+	padding-right: 1px;
+	font-size: 20px;
+}
+.circle__right--icon{
+	padding-left: 1px;
+}
+.circle__left--icon{
+	padding-left: 1px;
 }
 .bg__footer{
 	background-color: #121619;
@@ -149,6 +174,12 @@ h3{
 	.comment_icon--tw{
 		display: none;
 	}
+	.info__nosotros{
+		text-align: center;
+	}
+	.user__icon{
+		padding: 40px;
+	}
 	.card__nosotros{
 		border-radius: 50%;
 		text-align: center;
@@ -156,12 +187,29 @@ h3{
 		width: 100%;
 		padding: 10px;
 	}
-	.img__nosotros{
+.card__nosotros{
+		border-radius: 50%;
+		text-align: center;
+		display: block;
+		width: 100%;
+		padding: 10px;
+	}
+.img__nosotros{
 		border-radius: 50%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		width: 100%;
+	}
+	.naomi__name{
+		text-align: center;
+		font-size: 26px;
+	}
+	.naomi__mail{
+		text-align: center;
+	}
+	.website{
+		text-align: center;
 	}
 	.extracto__nosotros{
 		display: none;
@@ -209,30 +257,21 @@ h3{
 	}
 	.social__icon{
 		display: contents;
-		border: 1px solid #707070;
 		background-color: #707070;
-		margin: 5px;
 	}
 	.heart__icon{
-		border: 1px solid #707070;
-		background-color: #707070;
-		padding: 20px;
-		margin: 2px;
+		padding: 5px;
 	}
 	.share__icon{
-		border: 1px solid #707070;
-		background-color: #707070;
-		padding: 20px;
+		padding: 5px;
 		margin: 2px;
 	}
 	.comment_icon{
 		padding-right: 100px;
-		padding-top: 10px;
 		width: auto;
 	}
 	.comment_icon--tw{
-		font-family: "Roboto", sans-serif;
-
+		display: none;	
 	}
 	.card__nosotros{
 		border-radius: 50%;
@@ -240,6 +279,18 @@ h3{
 		display: block;
 		width: 100%;
 		padding: 10px;
+	}
+	.user__icon{
+		padding: 50px;
+	}
+	.naomi__name{
+		text-align: center;
+	}
+	.naomi__mail{
+		text-align: center;
+	}
+	.website{
+		text-align: center;
 	}
 	.img__nosotros{
 		border-radius: 50%;
